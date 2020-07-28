@@ -68,7 +68,7 @@ p {
 }
 
 .floating-outline:hover {
-  @apply border-blue-400;
+  @apply border-gray-400;
 }
 
 .anchor {

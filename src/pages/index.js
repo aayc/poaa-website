@@ -19,11 +19,11 @@ function IndexPage ()
   return (<Layout>
     <SEO title="Home" />
     <a className="anchor" id="top" />
-    <div className="space-background min-h-screen">
+    <div className="min-h-screen">
       <div className="flex m-auto lg:max-w-screen-lg xl:max-w-screen-xl">
         <div className="float-left">
           <br /> <br /> <br />
-          <h1 className="text-gray-200 text-2xl lg:text-4xl">Per Origami Ad Astra</h1>
+          <h1 className="text-gray-200">Per Origami Ad Astra</h1>
           <br /> 
           <div className="max-w-md">
             <h5>We're building the next generation of stuff to make big stuff happen</h5>
@@ -48,7 +48,7 @@ function IndexPage ()
   </div>*/}
     </div>
     <br />
-    <div className="flex m-auto lg:max-w-screen-lg xl:max-w-screen-xl">
+    <div className="flex m-auto lg:max-w-screen-lg xl:max-w-screen-xl" style={{backgroundColor: "white"}}>
       <Column title={"Phase 1"} 
               description={"Well, for phase 1 we honestly are just submitting the proposal so there's not a whole lot you can do with us at this point..."} />
       <Column title={"Phase 2"} 

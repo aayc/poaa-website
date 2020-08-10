@@ -27,7 +27,6 @@ const Header = ({ siteTitle }) => (
       position: "sticky",
       top: "0",
       zIndex: "100",
-      backgroundColor: "white",
     }}
   >
     <div

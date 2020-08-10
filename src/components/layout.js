@@ -31,10 +31,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <div>
+        <div className="space-background w-screen" style={{height: "100vh"}}></div>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div  >
-          <main>{children}</main>
-        </div>
+        <main>{children}</main>
       </div>
       <footer>
         <center>

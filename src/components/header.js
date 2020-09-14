@@ -40,8 +40,8 @@ export default function Header ({ siteTitle }) {
           <a className="header-link floating-underline" href="/#howitworks">logo here</a>
         </div>
         <div className="float-right hidden lg:block">
-          <a className="header-link floating-underline mr-4" href="/#about">About</a>
-          <a className="header-link floating-underline mr-4" href="/#community">Community</a>
+          {/*<a className="header-link floating-underline mr-4" href="/#about">The Big Idea</a>*/}
+          {/*<a className="header-link floating-underline mr-4" href="/#community">Community</a>*/}
           <a className="header-link floating-underline mr-4" href="/#proposal">Proposal</a>
           <a className="header-link floating-underline"  href="/#contact">Contact</a>
           {/*<LatestBlogLink />*/}
@@ -64,10 +64,10 @@ function ExpandableNav() {
     </div>
     {expanded ?
     (<div className="absolute text-right" style={{ backgroundColor: "white", top: 48, right:10}}>
-        <a className="header-link floating-underline" href="/#about">About</a>
+        {/*<a className="header-link floating-underline" href="/#about">About</a>
         <br />
         <a className="header-link floating-underline" href="/#community">Community</a>
-        <br />
+        <br />*/}
         <a className="header-link floating-underline" href="/#proposal">Proposal</a>
         <br />
         <a className="header-link floating-underline" href="/#contact">Contact</a>

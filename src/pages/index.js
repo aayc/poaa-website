@@ -22,8 +22,8 @@ export default function IndexPage ()
     <SEO title="Home" />
     <a className="anchor" id="top" />
     <div>
-      <div className="flex m-auto flex-col lg:flex-row lg:max-w-screen-lg xl:max-w-screen-xl">
-        <div className="pt-32">
+      <div className="flex m-auto flex-col lg:flex-row lg:max-w-screen-lg xl:max-w-screen-xl px-12 lg:p-0">
+        <div className="pt-24 lg:pt-32">
           <h1 className="leading-normal">Next generation space <span className="text-blue-600">foldables</span>.</h1>
           <br /> 
           <div className="max-w-2xl">
@@ -41,14 +41,12 @@ export default function IndexPage ()
                 </a>
               </div>
               </div>*/}
-            <br />
-            <br />
-            <div className="flex">
+            <div className="flex mt-12">
               <a className="mr-4 text-blue-600 cursor-pointer" href={"https://google.com"} rel="noopener noreferrer" target="_blank">
                 <FontAwesomeIcon className="inline text-2xl mt-1" icon={faFileAlt}/>
               </a>
               <a href={"https://google.com"}>
-                <h5 className="inline font-bold text-black pointer cursor-pointer floating-underline">Read our paper</h5>
+                <h5 className="inline font-bold text-black pointer cursor-pointer floating-underline">Read our proposal</h5>
               </a>
             </div>
           </div>

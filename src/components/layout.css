@@ -38,14 +38,12 @@ h3 {
 h5 {
   font-family: 'Lato';
   @apply text-2xl;
-  @apply text-gray-200;
 }
 
 h6 {
   font-family: 'Lato';
   font-weight: bold;
   font-size: 24px;
-  @apply text-gray-600;
 }
 
 .header-link {
@@ -53,23 +51,21 @@ h6 {
   cursor: pointer;
   font-family: 'Lato';
   font-weight: 400;
-  @apply text-gray-200;
 }
 
 p {
   font-family: 'Lato';
   font-size: 20px;
-  @apply text-gray-600;
 }
 
-.floating-outline {
+.floating-underline {
   @apply py-1;
   @apply border-b-2;
   @apply border-transparent;
 }
 
-.floating-outline:hover {
-  @apply border-gray-400;
+.floating-underline:hover {
+  @apply border-blue-400;
 }
 
 .anchor {

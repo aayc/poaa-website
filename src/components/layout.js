@@ -29,18 +29,19 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="flex flex-col justify-between min-h-screen">
       <div>
-        <div className="space-background w-screen" style={{height: "100vh"}}></div>
+        {/*<div className="space-background w-screen" style={{height: "100vh"}}></div>*/}
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
       </div>
-      <footer>
+
+      <footer className="pb-4">
         <center>
         <a className="header-link" style={{fontSize: 12}}>Per Origami Ad Astra © {new Date().getFullYear()}</a>
         </center>
       </footer>
-    </>
+    </div>
   )
 }
 

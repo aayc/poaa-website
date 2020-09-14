@@ -14,7 +14,7 @@ const LatestBlogLink = () => (
       }`} render={data => (
         data.allMarkdownRemark.edges.map(edge => {
           return (<a key={edge.node.frontmatter.title}
-                     className="header-link floating-outline ml-12"
+                     className="header-link floating-underline ml-12"
                      href={edge.node.frontmatter.path}>blog</a>)
         })
       )}/>
@@ -34,13 +34,13 @@ const Header = ({ siteTitle }) => (
       style={{justifyContent: "space-between"}}
     >
       <div className="flex">
-        <a className="header-link floating-outline" href="/#howitworks">logo here</a>
+        <a className="header-link floating-underline" href="/#howitworks">logo here</a>
       </div>
       <div className="float-right hidden lg:block">
-        <a className="header-link floating-outline mr-4" href="/#about">About</a>
-        <a className="header-link floating-outline mr-4" href="/#community">Community</a>
-        <a className="header-link floating-outline mr-4" href="/#proposal">Proposal</a>
-        <a className="header-link floating-outline"  href="/#contact">Contact</a>
+        <a className="header-link floating-underline mr-4" href="/#about">About</a>
+        <a className="header-link floating-underline mr-4" href="/#community">Community</a>
+        <a className="header-link floating-underline mr-4" href="/#proposal">Proposal</a>
+        <a className="header-link floating-underline"  href="/#contact">Contact</a>
         {/*<LatestBlogLink />*/}
       </div>
     </div>
@@ -60,13 +60,13 @@ function ExpandableNav() {
     </div>
     {expanded ?
     (<div className="absolute text-right" style={{ backgroundColor: "white", top: 48, right:10}}>
-        <a className="header-link floating-outline" href="/#about">About</a>
+        <a className="header-link floating-underline" href="/#about">About</a>
         <br />
-        <a className="header-link floating-outline" href="/#community">Community</a>
+        <a className="header-link floating-underline" href="/#community">Community</a>
         <br />
-        <a className="header-link floating-outline" href="/#proposal">Proposal</a>
+        <a className="header-link floating-underline" href="/#proposal">Proposal</a>
         <br />
-        <a className="header-link floating-outline" href="/#contact">Contact</a>
+        <a className="header-link floating-underline" href="/#contact">Contact</a>
       </div>)
       : (<div/>)}
     </div>

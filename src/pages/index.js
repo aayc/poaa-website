@@ -10,6 +10,7 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faRocket } from '@fortawesome/free-solid-svg-icons';
 
 const INSTAGRAM_LINK = "https://instagram.com";
 const FACEBOOK_LINK = "";
@@ -24,10 +25,13 @@ export default function IndexPage ()
     <div>
       <div className="flex m-auto flex-col lg:flex-row lg:max-w-screen-lg xl:max-w-screen-xl px-12 lg:p-0">
         <div className="pt-24 lg:pt-32">
-          <h1 className="leading-normal">Next generation space <span className="text-blue-600">foldables</span>.</h1>
+          <h1 className="leading-normal">Next generation space <span className="font-bold text-blue-600">foldables.</span></h1>
           <br /> 
           <div className="max-w-2xl">
-            <h5>We're Team Per Origami Ad Astra, and we're building the next generation of stuff to make big stuff happen.</h5>
+            <h5>Our proposed experiment will further the research performed on <span className="text-blue-600">origami-inspired</span> mechanisms.</h5>
+            <br />
+            <h5>We aim to simplify manufacturing, cut costs, and most importantly save precious space in rocket payloads.</h5>
+
             {/*<div className="flex">
               <div style={{fontSize: "1.5rem"}}>
                 <a className="mr-4 text-gray-200" href={INSTAGRAM_LINK} rel="noopener noreferrer" target="_blank">
@@ -43,10 +47,18 @@ export default function IndexPage ()
               </div>*/}
             <div className="flex mt-12">
               <a className="mr-4 text-blue-600 cursor-pointer" href={"https://google.com"} rel="noopener noreferrer" target="_blank">
-                <FontAwesomeIcon className="inline text-2xl mt-1" icon={faFileAlt}/>
+                <FontAwesomeIcon className="inline text-2xl mt-1 mr-1" icon={faFileAlt}/>
               </a>
               <a href={"https://google.com"}>
                 <h5 className="inline font-bold text-black pointer cursor-pointer floating-underline">Read our proposal</h5>
+              </a>
+            </div>
+            <div className="flex mt-4">
+              <a className="mr-4 text-blue-600 cursor-pointer" href={"https://google.com"} rel="noopener noreferrer" target="_blank">
+                <FontAwesomeIcon className="inline text-2xl mt-2" icon={faRocket}/>
+              </a>
+              <a href={"https://google.com"}>
+                <h5 className="inline font-bold text-black pointer cursor-pointer floating-underline">Interested in having us come to your school?</h5>
               </a>
             </div>
           </div>

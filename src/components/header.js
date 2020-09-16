@@ -37,7 +37,7 @@ export default function Header ({ siteTitle }) {
         style={{justifyContent: "space-between"}}
       >
         <div className="flex">
-          <a className="header-link floating-underline" href="/#howitworks">logo here</a>
+          <a className="header-link floating-underline font-semibold" href="/#howitworks">Per Origami Ad Astra</a>
         </div>
         <div className="float-right hidden lg:block">
           {/*<a className="header-link floating-underline mr-4" href="/#about">The Big Idea</a>*/}
